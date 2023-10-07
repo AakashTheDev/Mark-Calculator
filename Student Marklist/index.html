@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form id="markForm">
+      <h1>Mark Calculator</h1>
+      <p>Enter the Tamil Mark:</p>
+      <input
+        type="number"
+        id="tam"
+        max="100"
+        min="0"
+        placeholder="Tamil Mark"
+        required
+      />
+      <p>Enter the English Mark:</p>
+      <input
+        type="number"
+        id="eng"
+        max="100"
+        min="0"
+        placeholder="English Mark"
+        required
+      />
+      <p>Enter the Maths Mark:</p>
+      <input
+        type="number"
+        id="mat"
+        max="100"
+        min="0"
+        placeholder="Maths Mark"
+        required
+      />
+      <p>Enter the Science Mark:</p>
+      <input
+        type="number"
+        id="sci"
+        max="100"
+        min="0"
+        placeholder="Science Mark"
+        required
+      />
+      <p>Enter the Social Mark:</p>
+      <input
+        type="number"
+        id="soc"
+        max="100"
+        min="0"
+        placeholder="Social Mark"
+        required
+      />
+      <button type="submit" id="submitBtn">Calculate</button>
+    </form>
+
+    <h2>Total Mark : <span id="total"></span></h2>
+    <br />
+    <h2>Total Percentage : <span id="percentage"></span></h2>
+    <br />
+    <h2>Grade : <span id="grade"></span></h2>
+    <br />
+    <script src="./index.js"></script>
+  </body>
+</html>
